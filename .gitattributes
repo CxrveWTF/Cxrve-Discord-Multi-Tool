@@ -1,0 +1,8 @@
+# Normalize all text files to LF
+* text=auto
+
+# Mark Python files as text
+*.py text
+
+# Set Windows-style line endings for batch files
+*.bat text eol=crlf
